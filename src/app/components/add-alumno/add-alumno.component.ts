@@ -43,7 +43,7 @@ export class AddAlumnoComponent {
   registra(){
     this.modalidadService.registraModalidad(this.objModalidad).subscribe(
       x =>  Swal.fire({icon: 'info',
-                      title: 'Resultado del Registro - Jacinto',
+                      title: 'Resultado del Registro - YheremiRamos',
                       text: x}) 
     );
 }

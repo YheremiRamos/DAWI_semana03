@@ -6,9 +6,6 @@ export class Empleado {
     nombres?:string;
     apellidos?:string;
     fechaNacimiento ?:Date;
-    estado?:number;
-    fechaRegistro?:Date;
-    fechaActualizacion?:Date;
     pais?:Pais;
 
 
